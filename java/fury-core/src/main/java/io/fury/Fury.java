@@ -1360,4 +1360,13 @@ public final class Fury {
   public static FuryBuilder builder() {
     return new FuryBuilder();
   }
+
+  public <T> T copy(T toCopy) {
+    // todo
+    return toCopy;
+  }
+
+  public <T> T copyShallow(T toCopy) {
+    return toCopy;
+  }
 }

@@ -2,12 +2,8 @@ package io.fury.copy;
 
 import io.fury.Fury;
 
-/**
- *
- *
- * @author onlylyj
- */
+/** @author onlylyj */
 public interface FuryCopyable<T> {
 
-    T copy(Fury fury);
+  T copy(Fury fury);
 }
